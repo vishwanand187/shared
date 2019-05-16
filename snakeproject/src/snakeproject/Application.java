@@ -19,14 +19,14 @@ import java.security.acl.Group;
 
 import javax.swing.*;
 import javax.swing.plaf.basic.BasicBorders.RadioButtonBorder;
-public class startsnake extends Canvas  implements MouseListener{
+public class Application extends Canvas  implements MouseListener{
 	JFrame  f,f1,f2,f3;
 	JButton b1,b3,b4;
 	JButton b2;
 	JLabel j;
 	int k,c=1;
 	Thread h;
-	startsnake()
+	Application()
 	{
 		
 		f1=new JFrame();
@@ -106,7 +106,7 @@ public void mouseClicked(MouseEvent e) {
 		g.drawImage(i2, 800,300,this);
 	}
 	public static void main(String[] args) {
-		new startsnake();
+		new Application();
 	}
 }
 
