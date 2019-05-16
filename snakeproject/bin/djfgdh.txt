@@ -1,0 +1,12 @@
+it is badsically designed to provide interactioin platform for the interaction between 
+student and faculty
+>>>it contains 
+.a single notice board for common notice
+.individual notice board for each branch for specefic notice related to branch
+. a faculty can make their own id.
+.student have their own id;
+.if student have any problem then they ask their question to related faculty via sending maessage.
+.auto generated mail send to the faculty email id;
+. after solving problem  faculty send their answer to the student.
+.auto generated mail send to the student email id.
+.if faculty have any assignment given to students then he/she post their assignment to the related branch notice board     
